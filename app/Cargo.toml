@@ -1,0 +1,11 @@
+[package]
+name = "app"
+version = "0.1.0"
+authors = ["garasubo <garasubo@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rt = { path = "../rt" }
+lib = { path = "../lib" }
+cortex-m-semihosting = "0.3.2"
+embedded-hal = "0.2.2"
